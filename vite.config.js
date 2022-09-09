@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue';
 import Pages from 'vite-plugin-pages';
 import Layouts from 'vite-plugin-vue-layouts';
 import VueI18n from '@intlify/vite-plugin-vue-i18n';
+import ViteComponents from 'unplugin-vue-components/vite';
 import WindiCss from 'vite-plugin-windicss';
 
 // https://vitejs.dev/config/
@@ -25,6 +26,7 @@ export default defineConfig({
       compositionOnly: false,
       include: [path.resolve(__dirname, 'locales/**')],
     }),
+    ViteComponents(),
     WindiCss(),
   ],
 });

@@ -20,6 +20,7 @@
     "eslint": "^8.23.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-vue": "^9.4.0",
+    "unplugin-vue-components": "^0.22.4",
     "vite": "^3.1.0",
     "vite-plugin-pages": "^0.26.0",
     "vite-plugin-vue-layouts": "^0.7.0",
