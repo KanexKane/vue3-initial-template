@@ -12,8 +12,6 @@ const router = createRouter({
   routes,
 });
 
-console.log(routes);
-
 const app = createApp(App).use(router);
 
 Object.values(import.meta.globEager('./modules/*.js')).map((i) =>
